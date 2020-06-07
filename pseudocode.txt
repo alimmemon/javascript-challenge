@@ -1,0 +1,9 @@
+// YOUR CODE HERE!
+// on load, create table
+// declare variable - tell you to start at tbody
+// create rows and columns - based off data records
+// forEach record - attach a row
+    // ForEach column - attach a cell using Object.entries
+// define a variable to get the input
+// connect an event handler on click and on enter
+// connects to a function that will a) clear the data b) filter data c) display the data -> table

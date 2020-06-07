@@ -68,13 +68,20 @@ function input() {
     
     // Create JS Object for multiple input values
     var input_value = {};
-
+    // Input for date time
     input_value.datetime = d3.select("#datetime").property("value");
+    // Input for city
     input_value.city = d3.select("#city").property("value").toLowerCase();
+    // Input for state
     input_value.state = d3.select("#state").property("value").toLowerCase();
+    // Input for country
     input_value.country = d3.select("#country").property("value").toLowerCase();
+    // Input for shape
     input_value.shape = d3.select("#shape").property("value").toLowerCase();
+    // Input for duration
     input_value.duration_minutes = d3.select("#duration_minutes").property("value");
+    // Input for comments
+    input_value.comments = d3.select("#comments").property("value");
     
     
     // Iterate JS Object
